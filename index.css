@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background: cyan;
+}
+
+div {
+    border: 2px solid black;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    padding: 2rem;
+    background: white;
+    text-align: center;
+}
