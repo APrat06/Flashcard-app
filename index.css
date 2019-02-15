@@ -12,3 +12,6 @@ div {
     background: white;
     text-align: center;
 }
+#answer_line {
+    display: none;
+}

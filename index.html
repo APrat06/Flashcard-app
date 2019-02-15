@@ -3,15 +3,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
     <title>Flashcard-app</title>
 </head>
 <body>
     <h1>Welcome to Casper and Aymeric's flashcard app</h1>
     <div>
-        <h1 id="question_line">test1</h1>
-        <h1 id="answer_line">test2</h1>
+        <h1 id="question_line"></h1>
+        <h2 id="answer_line"></h2>
+        <button id="flipCard" onclick="flipIt()">Flip?</button>
     </div>
+    <button id="next_button" onclick="next_func()">Next card</button>
     <h2>Hope you liked it!</h2>
+    <script src="index.js"></script>
 </body>
 </html>
